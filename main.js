@@ -13,7 +13,7 @@ hole.addEventListener('animationiteration',()=>{
         block.style.animation='none';
         hole.style.animation='none';
         cha.style.height='0px';
-        re.style.display='block';
+        re.style.display='flex';
     }
     sail++;
 });
