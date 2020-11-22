@@ -9,10 +9,10 @@
     margin:auto;
     border:3px solid grey;
     background-image: url('sky.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     top:-400px;
     overflow: hidden;
+    animation: sky 5000000000s infinite;
 }
 #block{
     height:400px;
@@ -114,4 +114,12 @@
     background-image:linear-gradient(120deg, darkblue,blue,darkblue);
     text-align: center;
     padding-bottom: 5px;
+}
+@keyframes sky{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -500000000000px;
+    }
 }
